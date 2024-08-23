@@ -44,14 +44,14 @@ async def lifespan(app:FastAPI):
 
 
 app=FastAPI(lifespan=lifespan,
-            title="hello world db",
-            version="0.0.1",
-            servers=[{
-                "url":"http://127.0.0.1:8000",
-                "description":"fast_api"
+            # title="hello world db",
+            # version="0.0.1",
+            # servers=[{
+            #     "url":"http://127.0.0.1:8000",
+            #     "description":"fast_api"
                 
                 
-            }]
+            # }]
             )
 # session=Session(engine)
     
